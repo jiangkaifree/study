@@ -1,14 +1,19 @@
-- Blog文章
-  - [Vue和React的比较](blog/vue)
+
+- 随时记
+  - [Vue 和 React 的比较](blog/vue)
   - [`Axios`的常规封装](blog/axios)
   - [`Vue2` 开发中的骚操作](blog/vue2)
 
-- 学习资源
-  - [Vue和React的比较](blog/vue)
+- 学习笔记
 
-- 优秀文章摘录
+- 资源目录
+
+  - [Vue 和 React 的比较](blog/vue)
+
+- 优秀文章
 
 - 面试相关
+
   - [`Http`](aa/)
 
 - 其他
