@@ -6,7 +6,7 @@
 
 ###### 1.2 引入
 一般我会在项目的src目录中，新建一个request文件夹，然后在里面新建一个http.js和一个api.js文件。http.js文件用来封装我们的axios，api.js用来统一管理我们的接口。
-```java
+```js
 // 在http.js中引入axios
 import axios from 'axios'; // 引入axios
 import QS from 'qs'; // 可有可没有看实际项目情况 引入qs模块，用来序列化post类型的数据，后面会提到
