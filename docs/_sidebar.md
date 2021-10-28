@@ -1,16 +1,15 @@
-
-- 随时记
+- 随手记
   - [Vue 和 React 的比较](blog/vue)
   - [`Axios`的常规封装](blog/axios)
   - [`Vue2` 开发中的骚操作](blog/vue2)
 
 - 学习笔记
 
-- [资源指引](resources/)
+- 其他项目
+  - [项目代码规范参考](other)
 
-- 优秀文章
+- [资源收集](resources)
 
-- 面试相关
+- [精选文章](articles)
 
-- 其他
-  - [项目规范指引](other)
+- [面试相关](interview)

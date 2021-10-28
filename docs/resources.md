@@ -1,4 +1,4 @@
-## Github
+## GitHub
 
 [北大计算机课程](https://github.com/lib-pku/libpku)
 
@@ -6,3 +6,8 @@
 
 [清华大学计算机课程](https://github.com/PKUanonym/REKCARC-TSC-UHT)
 
+[GitHub优质项目](https://hellogithub.com/)
+
+## React
+
+[react技术揭秘](https://react.iamkasong.com/)
