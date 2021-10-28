@@ -8,7 +8,7 @@
 
 - 资源目录
 
-  - [Vue 和 React 的比较](blog/vue)
+  - [Vue 和 React 的比较](resources)
 
 - 优秀文章
 
