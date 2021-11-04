@@ -6,7 +6,9 @@
 
 [清华大学计算机课程](https://github.com/PKUanonym/REKCARC-TSC-UHT)
 
-[GitHub优质项目](https://hellogithub.com/)
+[中国科学技术大学课程](https://github.com/USTC-Resource/USTC-Course)
+
+[GitHub优质的学习项目](https://hellogithub.com/)
 
 ## React
 
