@@ -116,12 +116,12 @@ prefix? + action (A) + high context (HC) +   low context? (LC)
 
 参照下表看看
 
-Name                   | Prefix   | Action (A) | High context (HC) | Low context (LC) |
+|Name                   | Prefix   | Action (A) | High context (HC) | Low context (LC) |
 | ---------------------- | -------- | ---------- | ----------------- | ---------------- |
 | `getUser`              |          | `get`      | `User`            |                  |
 | `getUserMessages`      |          | `get`      | `User`            | `Messages`       |
 | `handleClickOutside`   |          | `handle`   | `Click`           | `Outside`        |
-| `shouldDisplayMessage` | `should` | `Display`  | `Message`
+| `shouldDisplayMessage` | `should` | `Display`  | `Message`||
 
 注意： 上下文的顺序会影响一个变量的含义。例如，shouldUpdateComponent意味着你即将更新一个组件，而 `shouldComponentUpdate` 则告诉你该组件将自行更新，而你不过是控制它何时更新。换句话说，高上下文强调了一个变量的意义。
 
