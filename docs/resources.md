@@ -14,7 +14,9 @@
 
 [react技术揭秘](https://react.iamkasong.com/)
 
-[IKUUU VPN](https://ikuuu.co/auth/register?code=17QQ)
+## vpn
+
+[VPN](https://ikuuu.co/user)
 
 ## 书籍
 
