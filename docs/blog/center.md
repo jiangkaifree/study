@@ -111,8 +111,8 @@
 }
 .children {
   background: yellow;
-!>  margin: auto;
+  margin: auto;
 }
 ```
 
-!> 不知道这种回答方式是否算上是一种合格的方式。
+不知道这种回答方式是否算上是一种合格的方式。
