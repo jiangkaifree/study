@@ -14,9 +14,13 @@
 
 [react技术揭秘](https://react.iamkasong.com/)
 
-## vpn
+## Vpn
 
 [VPN](https://ikuuu.co/user)
+
+## `B` 站视频
+
+[杨村长 `vue3`](https://www.bilibili.com/video/BV1vX4y1K7bQ?spm_id_from=333.999.0.0)
 
 ## 书籍
 

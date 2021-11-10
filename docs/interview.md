@@ -6,4 +6,4 @@
 
 [前端面试知识点及大厂招聘](https://lucifer.ren/fe-interview/#/)
 
-[每日一个面试题](https://github.com/shfshanyue/Daily-Question)
+[每日一个js题](https://github.com/shfshanyue/Daily-Question)

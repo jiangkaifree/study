@@ -19,6 +19,7 @@
   - [`React`封装一个异常状态显示组件](blog/errComponent)
   - [代码命名指引](blog/jsName)
   - [登录的 `token` 和 `session`](blog/tokenSession)
+  - [js代码的ie兼容](blog/ie)
 
 - 学习笔记
 
