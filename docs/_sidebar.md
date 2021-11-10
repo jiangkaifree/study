@@ -20,6 +20,7 @@
   - [代码命名指引](blog/jsName)
   - [登录的 `token` 和 `session`](blog/tokenSession)
   - [js代码的ie兼容](blog/ie)
+  - [css居中面试回答](blog/center)
 
 - 学习笔记
 
