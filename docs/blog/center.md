@@ -10,7 +10,6 @@
 
 ## 1. 知道元素的大小
 
-### 
 ```css
 .box {
     width: 200px;
@@ -26,7 +25,7 @@
     left: 50%;
     top: 50%;
     margin-left: -50px;
-    margin-top: -50px; 
+    margin-top: -50px;
 }
 ```
 
@@ -87,6 +86,7 @@
 这些方式只是大概了解，实际中并不会大多数的运用，你可以说出来不用说出细节的代码内容。
 
 使用 `table-cell`
+
 ```css
 .box {
   width: 200px;
@@ -102,6 +102,7 @@
 ```
 
 使用 `grid`
+
 ```css
  .box {
   width: 200px;
