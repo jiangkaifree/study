@@ -150,12 +150,12 @@ const obj = { name: 'kobe', age: 16 },
 Object.prototype.paly = () => {};
 console.log(Object.keys(obj))
 // ['name','age']
-
 // 也可以数组
 const arr = ['a', 'b'];
 console.log(Object.keys(arr));
 // ['0', '1']
 ```
+
 小结
 * 用于获取对象自身所有的可枚举的属性值，但**不包括原型中的属性**，然后返回一个由属性名组成的数组。
 
