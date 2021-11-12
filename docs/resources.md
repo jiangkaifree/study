@@ -1,3 +1,9 @@
+## 学习视频
+
+> `Vue3` 系例
+
+[B站杨村长 `vue3`](https://www.bilibili.com/video/BV1vX4y1K7bQ?spm_id_from=333.999.0.0)
+
 ## GitHub
 
 [北大计算机课程](https://github.com/lib-pku/libpku)
@@ -14,14 +20,11 @@
 
 [react技术揭秘](https://react.iamkasong.com/)
 
-## Vpn
-
-[VPN](https://ikuuu.co/user)
-
-## `B` 站视频
-
-[杨村长 `vue3`](https://www.bilibili.com/video/BV1vX4y1K7bQ?spm_id_from=333.999.0.0)
 
 ## 书籍
 
 [电子书合集1](https://github.com/tangtangcoding/C-C-)
+
+## Vpn
+
+[VPN](https://ikuuu.co/user)
