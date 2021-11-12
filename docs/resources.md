@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-11-12 21:02:46
+ * @LastEditTime: 2021-11-12 21:20:35
+ * @LastEditors: your name
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: /docs/Users/xiaocaiji/Desktop/study/docs/resources.md
+-->
 ## 学习视频
 
 > `Vue3` 系例
@@ -28,3 +36,7 @@
 ## Vpn
 
 [VPN](https://ikuuu.co/user)
+
+## Mac 应用
+
+[Mac 精品应用](https://macwk.com/)
