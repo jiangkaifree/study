@@ -160,6 +160,7 @@ console.log(Object.keys(arr));
 * 用于获取对象自身所有的可枚举的属性值，但**不包括原型中的属性**，然后返回一个由属性名组成的数组。
 
 8. `Object.values`
+
 ```js
 const obj = { name: 'kobe', age: 16 }
 Object.prototype.paly = () => {};
@@ -170,12 +171,13 @@ console.log(Object.values(obj))
 const arr = ['a', 'b'];
 console.log(Object.values(arr));
 // ['a', 'b']
-
 ```
+
 小结
 * 用于获取对象自身所有的可枚举的属性值，**但不包括原型中的属性**，然后返回一个由属性值组成的数组。
 
 9.`Object.entries`
+
 ```js
 const obj = { name: 'kobe', age: 16 }
 Object.prototype.paly = () => {};
@@ -188,5 +190,6 @@ console.log(Object.entries(arr));
 ```
 小结
 * 用于获取对象自身所有的可枚举的属性值，但不包括原型中的属性，然后返回二维数组。每一个子数组由对象的属性名、属性值组成。可以同时拿到属性名与属性值的方法。
-**注意⚠️** 它们都是无序的并不能保证拿到的顺序是一一对应的。
+
+> 注意⚠️: 它们都是无序的并不能保证拿到的顺序是一一对应的。
 

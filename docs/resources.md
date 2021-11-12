@@ -2,7 +2,7 @@
 
 > `Vue3` 系例
 
-[B站杨村长 `vue3`](https://www.bilibili.com/video/BV1vX4y1K7bQ?spm_id_from=333.999.0.0)
+[B站杨村长vue3](https://www.bilibili.com/video/BV1vX4y1K7bQ?spm_id_from=333.999.0.0)
 
 ## GitHub
 

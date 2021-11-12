@@ -28,7 +28,7 @@ else if (process.env.NODE_ENV == 'production') {
 ```
 ###### 1.4 设置请求超时
 通过axios.defaults.timeout设置默认的请求超时时间。例如超过了10s，就会告知用户当前请求超时，请刷新等。
-```jav
+```js
 axios.defaults.timeout = 10000;       	//单位毫秒
 ```
 ###### 1.5 设置请求头
@@ -38,7 +38,7 @@ axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded
 ```
 ###### 1.6 请求拦截
 会首先从本地存储中读取token，如果token存在说明用户已经登陆过，则更新vuex中的token状态。然后，在每次请求接口的时候，都会在请求的header中携带token，后台人员就可以根据你携带的token来判断你的登录是否过期，如果没有携带，则说明没有登录过。 一般我们会在里面放入token 这是最常见的形式了，当然不排除其他的东西
-```ja
+```js
 // 先导入vuex,因为我们要使用到里面的状态对象 可根据情况来定 需不需要
 // vuex的路径根据自己的路径去写
 import store from '@/store/index';
@@ -58,7 +58,7 @@ axios.interceptors.request.use(
 })
 ```
 ###### 1.7 响应的拦截
-```jav
+```js
 / 响应拦截器
 axios.interceptors.response.use(
     response => {
@@ -149,11 +149,11 @@ axios.interceptors.response.use(
 }
 ```
 
-###### 1.8  封装get方法和post方法
-我们常用的ajax请求方法有get、post、put等方法，相信小伙伴都不会陌生。axios对应的也有很多类似的方法，不清楚的可以看下文档。但是为了简化我们的代码，我们还是要对其进行一个简单的封装。下面我们主要封装两个方法：get和post。
+###### 1.8  封装 `get` 方法和 `post` 方法
+我们常用的 `ajax` 请求方法有 `get`、``post`、`put` 等方法，相信小伙伴都不会陌生。`axios` 对应的也有很多类似的方法，不清楚的可以看下文档。但是为了简化我们的代码，我们还是要对其进行一个简单的封装。下面我们主要封装两个方法：`get` 和 `post` 。
 
-==get方法==：我们通过定义一个get函数，get函数有两个参数，第一个参数表示我们要请求的url地址，第二个参数是我们要携带的请求参数。get函数返回一个promise对象，当axios其请求成功时resolve服务器返回 值，请求失败时reject错误值。最后通过export抛出get函数。
-```ja
+`get`方法：我们通过定义一个 `get` 函数，get函数有两个参数，第一个参数表示我们要请求的url地址，第二个参数是我们要携带的请求参数。get函数返回一个promise对象，当axios其请求成功时resolve服务器返回值，请求失败时 `reject` 错误值。最后通过 `export` 抛出 `get` 函数。
+```js
 /**
  * get方法，对应get请求
  * @param {String} url [请求的url地址]
@@ -450,9 +450,9 @@ Vue.prototype.$api = api; // 将api挂载到vue的原型上
 
 然后我们可以在页面中这样调用接口，
 
-```
+```js
 methods: {
-    onLoad(id) {
+    mounted(id) {
         this.$api.article.articleDetail(id, {
             api: 123
         }).then(res=> {
