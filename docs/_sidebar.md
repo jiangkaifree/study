@@ -24,12 +24,12 @@
 
 - 学习笔记
 
-- [其他项目](other)
+- [其他项目](github)
 
 - [资源收集](resources)
 
 - [精选文章](articles)
 
-- [面试相关](interview)
-
 - [中大厂岗位信息](job)
+
+- [杂项](other)

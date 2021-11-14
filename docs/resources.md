@@ -1,4 +1,4 @@
-# 这里搜集整理了一些资源
+# 这里搜集整理了一些学习资源
 
 ## 学习视频
 
@@ -19,7 +19,8 @@
 [计算机网络 湖南科大](https://www.bilibili.com/video/BV1c4411d7jb?from=search&seid=8988146631397239157&spm_id_from=333.337.0.0)
 
 [计算机网络 哈工大利全龙](https://www.bilibili.com/video/BV1Up411Z7hC?from=search&seid=9029496588335173754&spm_id_from=333.337.0.0)
-## GitHub
+
+## GitHub学习资源
 
 [北大计算机课程](https://github.com/lib-pku/libpku)
 
@@ -39,10 +40,12 @@
 
 [电子书合集 1](https://github.com/tangtangcoding/C-C-)
 
-## Vpn
+## 面试
 
-[VPN](https://ikuuu.co/user)
+[字节面试题](https://bytedance.feishu.cn/base/app8Ok6k9qafpMkgyRbfgxeEnet?table=tblEnSV2PNAajtWE&view=vewJHSwJVd)
 
-## Mac应用
+[前端面试知识库](https://www.html5iq.com/5feb26ddf72c21052324d0fd.html)
 
-[Mac 精品应用](https://macwk.com/)
+[前端面试知识点及大厂招聘](https://lucifer.ren/fe-interview/#/)
+
+[每日一个js题](https://github.com/shfshanyue/Daily-Question)
