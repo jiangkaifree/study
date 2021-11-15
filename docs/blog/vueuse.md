@@ -175,4 +175,4 @@ const { data } = useFetch(url, {
 
 ## 更多
 
-更多还的看[VueUse 文档](https://vueuse.org/)，还有另一个 [vue-demi](https://github.com/vueuse/vue-demi)
+更多还的看[VueUse 文档](https://vueuse.org/)，还有另一个项目也值得一看，或许你能用上 [vue-demi](https://github.com/vueuse/vue-demi)
