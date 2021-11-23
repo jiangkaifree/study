@@ -81,7 +81,9 @@ if (codeMap.includes(code)) return 'network error'
 
 ### 插件
 
-无论是 `webpack` 还是 `babel` 它们的生态都有着许多的插件，这也是你结合的一个方面，比如我就在 使用 `esm` 的 `import/export` 语法后，导致打包处理的代码会报 `Object.Object.defineProperty` 的问题， 这应该是 `ie` 中遇到的最多的问题了。查了一下，`vue` 利用的就是这个 `api` 来实现的双向数据绑定，这也是它不支持 `ie8` 的原因。在 `ie8` 中 `Object.defineProperty` 只支持 `DOM` 对象。所以就会带来问题。解决办法 应该有两种：1. 不使用 `es6` 的模块化规范，即 `import/export` 语法，转而使用 `amd` 的 `module.export/require`。但是如果你就是想写 `import/export` , 那么可能你需要借助插件的转换 [@babel/plugin-transform-modules-commonjs](https://babel.docschina.org/docs/en/babel-plugin-transform-modules-commonjs/)。这个插件能够帮助你。
+无论是 `webpack` 还是 `babel` 它们的生态都有着许多的插件，这也是你结合的一个方面，比如我就在 使用 `es6` 的 `import/export` 语法后，导致打包处理的代码会报 `Object.Object.defineProperty` 的问题， 这应该是 `ie` 中遇到的最多的问题了。查了一下，`vue` 利用的就是这个 `api` 来实现的双向数据绑定，这也是它不支持 `ie8` 的原因。在 `ie8` 中 `Object.defineProperty` 只支持 `DOM` 对象。所以就会带来问题。解决办法 应该有两种：1. 不使用 `es6` 的模块化规范，即 `import/export` 语法，转而使用 `amd` 的 `module.export/require`。但是如果你就是想写 `import/export` , 那么可能你需要借助插件的转换 [@babel/plugin-transform-modules-commonjs](https://babel.docschina.org/docs/en/babel-plugin-transform-modules-commonjs/), 这个插件能够帮助你。
+
+欢迎访问我的  [blog](https://2462870727.github.io/study/#/)
 
 
 
