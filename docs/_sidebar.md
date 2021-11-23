@@ -29,8 +29,8 @@
 
 - [资源收集](resources)
 
-- [精选文章](articles)
+- [优秀文章](articles)
 
-- [中大厂岗位信息](job)
+- [中大厂岗位](job)
 
 - [杂项](other)
