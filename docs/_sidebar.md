@@ -1,4 +1,7 @@
 - 随手记
+  - [js代码的ie兼容](blog/ie)
+  - [css居中面试回答](blog/center)
+  - [Vue生态新玩具VueUse ](blog/vueuse)
   - [Vue 和 React 的比较](blog/vue)
   - [`Axios`的常规封装](blog/axios)
   - [`Vue2` 开发中的骚操作](blog/vue2)
@@ -19,9 +22,6 @@
   - [`React`封装一个异常状态显示组件](blog/errComponent)
   - [代码命名指引](blog/jsName)
   - [登录的 `token` 和 `session`](blog/tokenSession)
-  - [js代码的ie兼容](blog/ie)
-  - [css居中面试回答](blog/center)
-  - [Vue生态新玩具VueUse ](blog/vueuse)
 
 - 学习笔记
 
