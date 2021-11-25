@@ -1,4 +1,5 @@
 - 随手记
+  - [一些小的知识点](blog/knowledge1)
   - [js代码的ie兼容](blog/ie)
   - [css居中面试回答](blog/center)
   - [Vue生态新玩具VueUse ](blog/vueuse)
