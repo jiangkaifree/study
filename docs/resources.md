@@ -32,6 +32,8 @@
 
 [GitHub 优质的学习项目](https://hellogithub.com/)
 
+[Github前端技能手册](https://github.com/FrontEndGitHub/FrontEndGitHub)
+
 ## React
 
 [react 技术揭秘](https://react.iamkasong.com/)
