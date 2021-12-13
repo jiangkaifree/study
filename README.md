@@ -1,6 +1,6 @@
 # 学习笔记文档
 
-这是我的 [`BLOG`](https://2462870727.github.io/study/#/) 记录。
+这是我的 [`BLOG(点击访问)`](https://2462870727.github.io/study/#/) 记录。
 
 ## 能力
 
