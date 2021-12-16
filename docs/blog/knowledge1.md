@@ -37,3 +37,7 @@ export function useCount() {
 ```
 
 如果你了解 `vue3` , 不难看懂这段代码，但是我要说的是：如果你在另一个 `js` 中导入这个文件使用，也是可以运行的。这里的另一个 `js` 它可以就是一个单纯的js文件，或者基于其他框架的。 `vue3` 的响应式系统已经脱离了组件上下文。[看看作者尤大大的讲解👉](https://www.zhihu.com/question/492260571/answer/2169913043)
+
+## `DOMContentLoaded` 与 `onload`
+
+解释一下，当 HTML 文档解析完成就会触发 `DOMContentLoaded`，而所有资源加载完成之后，`load` 事件才会被触发。这里说的使用资源，包括切不局限于 `css` `js` `img` `font` 等。 
