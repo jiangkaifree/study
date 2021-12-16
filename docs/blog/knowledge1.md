@@ -40,4 +40,4 @@ export function useCount() {
 
 ## `DOMContentLoaded` 与 `onload`
 
-解释一下，当 HTML 文档解析完成就会触发 `DOMContentLoaded`，而所有资源加载完成之后，`load` 事件才会被触发。这里说的使用资源，包括切不局限于 `css` `js` `img` `font` 等。 
+当纯 `HTML` 被完全加载以及解析时，`DOMContentLoaded` 事件会被触发，而不必等待样式表，图片或者子框架完成加载。而所有资源加载完成之后，`load` 事件才会被触发。这里说的使用资源，包括切不局限于 `css` `js` `img` `font` 等。
