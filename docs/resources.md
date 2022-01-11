@@ -38,6 +38,8 @@
 
 [react 技术揭秘](https://react.iamkasong.com/)
 
+[Vue 技术解密](https://ustbhuangyi.github.io/vue-analysis/)
+
 ## 书籍
 
 [电子书合集 1](https://github.com/tangtangcoding/C-C-)
