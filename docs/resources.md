@@ -44,7 +44,7 @@
 
 [电子书合集 1](https://github.com/tangtangcoding/C-C-)
 
-[74k star电子书合集](https://github.com/WebEngineerLi/react-captcha)
+[74k star电子书合集](https://github.com/justjavac/free-programming-books-zh_CN)
 
 ## 面试
 
