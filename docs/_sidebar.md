@@ -1,3 +1,4 @@
+- [程序员的PPT利器](blog/ppt)
 - [下一代CSS方案探索](blog/nextCss)
 - [一些小的知识点](blog/knowledge1)
 - [js代码的ie兼容](blog/ie)
