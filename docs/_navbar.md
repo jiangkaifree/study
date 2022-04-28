@@ -1,9 +1,9 @@
-- [随手记](/blog)
+- [随手记](/blog/)
 
-- [Github项目](/github)
+<!-- - [Github项目](/github)
 
 - [学习资源](/resources)
 
-- [优秀文章](/articles)
+- [优秀文章](/articles) -->
 
-- [中大厂岗位信息](/job)
+<!-- - [中大厂岗位信息](/job) -->
