@@ -1,3 +1,4 @@
+- [前端简单debugger知识gif图指引](blog/debugger)
 - [程序员的PPT利器](blog/ppt)
 - [下一代CSS方案探索](blog/nextCss)
 - [一些小的知识点](blog/knowledge1)
