@@ -1,0 +1,64 @@
+## 问题
+
+nginx 下同一个端口想部署两个项目， 假设他们都在 80 端口下，效果如下：
+
+
+![null.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0170787ed8cd4964b21f2d2f385cb9ea~tplv-k3u1fbpfcp-watermark.image?)
+
+简单的说前端路由根据 `/common` 区分， 带和不带是两个应用。
+
+## 解决
+
+解决分为两块 前端和nginx:
+
+1. nginx
+
+nginx 需要做的就是根据不同的 url 映射到不同的项目目录。这很简单
+
+```
+location / {
+        #对应 /home/flkete/dist 项目A的前端包
+        root   /home/flkwte/dist; 
+        index  index.html index.htm;
+        try_files $uri $uri/ /index.html;
+    }
+
+location /common {
+        #对应 /home/flkwte/common 项目B的前端包
+        root  /home/flkwte;
+        index  index.html index.htm;
+        try_files $uri $uri/ /common/index.html;
+    }
+```
+
+2. 前端
+
+前端需要修改两个地方 一个是 `router` (不管是 `vue-router` , `react-router`), 和 打包配置。下面给出的是 `react` 结合 `vite` 。
+
+```js
+// router 入口增加basename
+<BrowserRouter basename='/common'>
+      <ConfigProvider locale={zhCN} >
+        <AppRouter />
+      </ConfigProvider>
+</BrowserRouter>
+
+// vite.config.ts 增加base
+export default defineConfig({
+    base: '/common/',
+    ...
+})
+```
+
+## 注意
+
+> 如果你想两个项目的文件目录是包含关系，即 **项目B的包** 在 **项目A的包** 目录下， 这样子似乎不行， 他们要平级
+
+```
+// 根目录
+root
+ |
+ |---- packageA
+ |
+ |---- packageB
+```
