@@ -30,7 +30,7 @@ flag ？console.log（“True”）：console.log（“False”）
 ## 3. 数组删除重复项
 
 ```javascript
-    cosnt list = [1,1,2,3,4,4,5]
+    const list = [1,1,2,3,4,4,5]
     const newList = [...new Set(list)]
     console.log(newList)    // 打印 [1,2,3,4,5]
 ```
